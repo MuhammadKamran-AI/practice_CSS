@@ -1,0 +1,22 @@
+/* 
+    -> there different types of colors in css
+    1. named color: 140
+    2. rgb: 0-255
+    3. rgba: same as rgb but add alpha chanel(opacity)
+    4. Hex color
+    5. HSL
+*/
+
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: papayawhip;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    /* color: rgba(0, 0, 0, 0.5); */
+    /* color: #808080; */
+    color: hsl(0, 0%, 26%);
+}
