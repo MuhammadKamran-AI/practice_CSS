@@ -1,0 +1,45 @@
+/* 
+    1. Only text-related properties will inherited example: all typographic properties will act as inherited.
+    2. Universal selector is not inheriting but It selecting all the elements within body
+    3. Form elements do not inherit font-size and other typographic properties.
+*/
+
+/* This is Universal selector */
+/* * {
+    font-family: monospace;
+}
+ */ 
+
+/* This syntax is of element selector  */
+body {
+    font-size: 18px;
+}
+
+/* this syntax shows that group selector */
+h1, h2{
+    color: blue;
+}
+
+/* other example of element selector */
+p {
+    color: purple;
+}
+
+/* class selector */
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+/* Id selector */
+#second {
+    font-style: italic;
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
